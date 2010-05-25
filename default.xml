@@ -2,7 +2,6 @@
 <manifest>
   <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com"/>
   <remote name="github" fetch="git://github.com/" />
-  <remote name="gitorious" fetch="git://gitorious.org" />
 
   <default revision="eclair" remote="korg"/>
 
@@ -181,22 +180,7 @@
   <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib"/>
 
-  <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
-  <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
-  <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
-
-  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" />
-  <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
-
-  <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
-  <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
-
-  <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
-
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
-  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
-  <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
   <project path="cts" name="platform/cts" />
 </manifest>
